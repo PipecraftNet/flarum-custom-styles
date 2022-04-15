@@ -1,0 +1,48 @@
+/* navigation */
+@media (min-width: 768px) and (max-width: 1099px) {
+  .Header-primary .Header-controls {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .Header-primary:after {
+    content: " > ";
+    margin-left: 20px;
+  }
+
+  .Header-primary:hover {
+    padding-right: 30px;
+    padding-bottom: 20px;
+  }
+  .Header-primary:hover .Header-controls {
+    transition: max-width 1s;
+    max-width: 1000px;
+    overflow: unset;
+    animation: delay-overflow-unset 1s;
+  }
+  @keyframes delay-overflow-unset {
+    from {
+      overflow: hidden;
+    }
+    to {
+      overflow: unset;
+    }
+  }
+  .Header-primary:hover:after {
+    content: "";
+  }
+
+  .Header-primary:hover + .Header-secondary {
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 20px;
+    float: unset;
+  }
+}
+
+.Header-secondary .item-session button {
+  max-width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

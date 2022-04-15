@@ -1,0 +1,9 @@
+/* statistics-widget */
+.TagsPage .item-forumStatisticsWidget {
+  display: none !important;
+}
+@media (max-width: 991.98px) {
+  .item-forumStatisticsWidget {
+    display: none !important;
+  }
+}

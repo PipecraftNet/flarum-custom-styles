@@ -1,0 +1,18 @@
+/* content */
+.Post-body hr {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 50%;
+  height: 1px;
+  border: none;
+  background: #eaeaea;
+}
+
+.Post-body a[rel*="ugc"] {
+  color: #563bda;
+}
+
+.Post-body a em {
+  color: #999;
+  font-weight: 400;
+}

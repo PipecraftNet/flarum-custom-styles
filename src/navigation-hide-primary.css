@@ -1,4 +1,6 @@
 /* navigation */
+/* Update the value of max-width according to the width of Header-primary and Header-secondary */
+/* 根据 Header-primary 和 Header-secondary 的宽度，修改 max-width 的大小。header 里东西很多时，max-width 改成更大一些 */
 @media (min-width: 768px) and (max-width: 1099px) {
   .Header-primary .Header-controls {
     max-width: 200px;
